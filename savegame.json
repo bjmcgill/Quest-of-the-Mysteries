@@ -1,0 +1,36 @@
+{
+    "player": {
+        "inventory": [
+            {
+                "name": "key",
+                "description": "A small, rusty key.",
+                "pickable": true
+            }
+        ]
+    },
+    "locations": {
+        "Garden": {
+            "name": "Garden",
+            "description": "A peaceful garden with blooming flowers.",
+            "exits": {
+                "north": "House"
+            },
+            "objects": [
+                {
+                    "name": "sword",
+                    "description": "A sharp, shiny sword.",
+                    "pickable": true
+                }
+            ]
+        },
+        "House": {
+            "name": "House",
+            "description": "A cozy little house with a warm fireplace.",
+            "exits": {
+                "south": "Garden"
+            },
+            "objects": []
+        }
+    },
+    "current_location": "House"
+}
